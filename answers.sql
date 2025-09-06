@@ -12,7 +12,7 @@ FROM employees AS e
 INNER JOIN offices AS o ON e.officeCode = o.officeCode;
 
 -- Question 2: LEFT JOIN - Get all products with product line info
--- Shows all products, even if product line details are missing
+-- Shows all products, even if product line  details are missing
 SELECT 
     p.productName,
     p.productVendor,
